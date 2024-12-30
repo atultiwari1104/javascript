@@ -30,7 +30,7 @@ else{
    }
    else{
     alert("nuteral")
-   }      */
+   }     
    
 
     let a=parseInt(prompt("enter a number:"))
@@ -49,4 +49,17 @@ else{
     else{
         alert("invalid")
     }
-
+ */
+let age=parseInt(prompt())
+if(age>=18){
+    let n=parseInt(prompt())
+    if(n==1){ 
+        alert("eligible")
+    }
+    else{
+        alert("not eligible")
+    }
+}
+else{
+    alert("you are chaild")
+}
