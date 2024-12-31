@@ -18,12 +18,12 @@ console.log(demo())
 */
 function code(a){
     return a*a*a
-   
-}
+   }
 let a=parseInt(prompt())
-console.log(code(a))
-for(i=0,i<=a,a++) {
-    for(j=0,j<=a,j++){
-   console.log("*")
+let ans=code(a)
+for(i=0;i<=ans;i++) {
+    for(j=0;j<=i;j++){
+    document.write("*")
 }
+document.write("<br>")
 }
