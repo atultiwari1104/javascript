@@ -1,0 +1,19 @@
+//three type class id tag  always return single node
+//  getElementsbyclassName=using node list and node list is form the array 
+//name[index value].innerHtml=using for changing the content with the tages
+//name[index value].textcontent=only for content
+//ECMA
+//HOSITING
+//ES6
+
+let head=document.getElementById("head")
+console.log(head)
+document.write("<h1>hello i am atul</h1>")
+Document.write("hello from js")
+
+
+let content=document.getElementsByClassName("content")
+console.log(content)
+content[0].innerHTML="hello"
+content[1].textContent="hello i am atul"
+
