@@ -2,8 +2,8 @@
 //  getElementsbyclassName=using node list and node list is form the array 
 //name[index value].innerHtml=using for changing the content with the tages
 //name[index value].textcontent=only for content
-//ECMA
-//HOSITING
+//ECMA==is a standerd for scripting langauge including javascript actionscript 
+//HOSITING==is a built in a langauge behaviour that moves variable funcation and class decleration to the top of their scope before code executation
 //ES6
 
 let head=document.getElementById("head")
