@@ -11,7 +11,7 @@ function red(color){
     document.body.style.background=color
 }
 
-function drk(){
+function dark(){
     let para=document.getElementById("para")
     para.classList.add('drk')
 }

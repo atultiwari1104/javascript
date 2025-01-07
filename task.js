@@ -1,11 +1,16 @@
-function fn(sum){
-     sum=0
-while(a>0){
-    c=a%10
-    sum=sum+c
-    a =a/10
+function add(){
+    alert("180")
+    let a=parseInt(prompt("how many seats:"))
+    let amount=180*a
+    alert(amount)
+
 }
-    console.log(parseInt(sum))
+function add2(){
+    alert("280")
+    let a=parseInt(prompt("how many seats:"))
+    let amount=180*a
+    alert(amount)
+
 }
-let a=parseInt(prompt("enter a number"));
-console.log(fn())
+
+
