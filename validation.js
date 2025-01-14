@@ -3,6 +3,7 @@ function validate(){
    let contact=document.getElementById("contact").value
    let age=document.getElementById("age").value
    let email=document.getElementById("email").value
+   let cpass=document.getElementById("cpass").value
 
    if(name==""){
    alert("enter the name")
@@ -40,5 +41,11 @@ function validate(){
     document.getElementById("email").focus()
     return false
    }
+   else if(cpass=""){
+      alert(" enter the password")
+      document.getElementById("cpass").focus()
+      return false
+   }
+   
 
 }
